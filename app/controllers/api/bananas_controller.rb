@@ -1,7 +1,7 @@
 class Api::BananasController < ApplicationController
 
   def index
-    render json: {message: "It's bananas!"}
+    render 'index.json.jb'
   end
 
 end
