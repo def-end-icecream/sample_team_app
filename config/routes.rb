@@ -3,5 +3,6 @@ Rails.application.routes.draw do
     get "/pages" => "pages#index"
 
     get "/tests" => "tests#index"
+    get "/sloths" => "sloths#index"
   end
 end
