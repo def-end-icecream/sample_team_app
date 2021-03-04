@@ -1,7 +1,7 @@
 class Api::TestsController < ApplicationController
 
   def index
-    render json: { message: "hello david" }
+    render "index.json.jb"
     
   end
 end
